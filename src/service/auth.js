@@ -7,6 +7,7 @@ export default class AuthService {
         Authorization: `Bearer ${token}`,
       },
     });
+    console.log(token)
     return response.data;
   }
 }
